@@ -8,7 +8,7 @@ st.set_page_config(page_title="Solar Dashboard", layout="wide")
 # Load data from Google Drive
 @st.cache_data
 def load_data():
-    url = "https://drive.google.com/file/d/1OChqFUGYtjx115D3xgcWPJYL-Tu_Isd0/view?usp=sharing"
+    url = "https://drive.google.com/uc?id=1OChqFUGYtjx115D3xgcWPJYL-Tu_Isd0"
     df = pd.read_csv(url)
     return df
 
