@@ -9,7 +9,6 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     negative_cols = ['GHI', 'DNI', 'DHI']
     for col in negative_cols:
         df = df[df[col] >= 0]
-
-    df = df.reset_index(drop=True)
+        df[col] = df[col].where(df[col] >= 0, df[col].median)
 
     return df
