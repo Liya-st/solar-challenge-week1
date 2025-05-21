@@ -12,3 +12,4 @@ def clean_data(df):
             print(f"Column '{col}' not found in dataframe.")
     return df.reset_index(drop=True)
 
+
