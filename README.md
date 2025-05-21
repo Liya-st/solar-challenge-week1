@@ -27,3 +27,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+## To just access the dashboard
+
+https://drive.google.com/file/d/16PLAD1NDefMvGlWA4HOxdhedtLu8ZHsk/view?usp=sharing
