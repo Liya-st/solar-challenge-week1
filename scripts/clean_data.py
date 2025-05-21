@@ -11,3 +11,5 @@ def clean_data(df):
         else:
             print(f"Column '{col}' not found in dataframe.")
     return df.reset_index(drop=True)
+
+
